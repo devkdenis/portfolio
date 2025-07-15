@@ -1,16 +1,17 @@
 ---
-
+import { getCollection } from 'astro:content';
+const projects = await getCollection('projects');
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>KDenis Portfolio</title>
-	</head>
-	<body>
-		<h1>KDenis Portfolio</h1>
-	</body>
-</html>
+<h1>Projects</h1>
+<ul>
+  {projects
+    // optional: sort by date descending
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+    .map((proj) => (
+      <li>
+        <a href={`projects/${proj.data.slug ?? proj.id}/`}>
+          {proj.data.title}
+        </a>
+      </li>
+    ))}
+</ul>
