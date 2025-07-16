@@ -4,6 +4,7 @@ const projects = await getCollection('projects');
 ---
 <h1>Projects</h1>
 <ul>
+  SMALL TEST
   {projects
     // optional: sort by date descending
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
