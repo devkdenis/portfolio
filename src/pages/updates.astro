@@ -1,0 +1,11 @@
+--- 
+import { getCollection } from 'astro:content';
+const updates = await getCollection('updates');
+---
+<ul>
+  {updates.map(u => (
+    <li>
+      <time datetime={u.data.date}>{u.data.date}</time> – {u.data.title}
+    </li>
+  ))}
+</ul>

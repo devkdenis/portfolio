@@ -1,17 +1,36 @@
 ---
+import AboutContent, { frontmatter } from './about.md';
 import { getCollection } from 'astro:content';
+
+const updates  = await getCollection('updates');
 const projects = await getCollection('projects');
 ---
-<h1>Projects KD2</h1>
-<ul>
-  {projects
-    // optional: sort by date descending
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-    .map((proj) => (
+<section>
+  <h2>About</h2>
+  <p>{frontmatter.excerpt}</p>
+  <a href="about">Read more</a>
+</section>
+
+<section>
+  <h2>Recent Updates</h2>
+  <ul>
+    {updates.slice(0, 5).map(u => (
       <li>
-        <a href={`projects/${proj.data.slug ?? proj.id}/`}>
-          {proj.data.title}
-        </a>
+        <time datetime={u.data.date}>{u.data.date}</time> – {u.data.title}
       </li>
     ))}
-</ul>
+  </ul>
+  <a href="updates">View all</a>
+</section>
+
+<section>
+  <h2>Recent Projects</h2>
+  <ul>
+    {projects.slice(0, 3).map(p => (
+      <li>
+        <a href={`projects/${p.slug}/`}>{p.data.title}</a>
+      </li>
+    ))}
+  </ul>
+  <a href="projects">View all</a>
+</section>
