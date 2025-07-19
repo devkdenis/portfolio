@@ -1,4 +1,5 @@
 ---
+layout: ../layout/Layout.astro
 title: About
 excerpt: >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dui dolor, facilisis et augue eu, eleifend auctor ante. Integer molestie ligula at fringilla porttitor. Aenean pulvinar et erat tempor volutpat. Praesent non mauris fermentum, gravida nulla vitae, lobortis magna. Ut vel neque urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 

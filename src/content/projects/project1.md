@@ -1,4 +1,5 @@
 ---
+layout: ../layout/Layout.astro
 title: My First Project
 date: '2025-07-15'
 description: A minimal example project

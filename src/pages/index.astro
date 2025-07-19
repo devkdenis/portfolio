@@ -1,36 +1,40 @@
 ---
+import Layout from '../layout/Layout.astro';
 import AboutContent, { frontmatter } from './about.md';
 import { getCollection } from 'astro:content';
 
 const updates  = await getCollection('updates');
 const projects = await getCollection('projects');
 ---
-<section>
-  <h2>About</h2>
-  <p>{frontmatter.excerpt}</p>
-  <a href="about">Read more</a>
-</section>
 
-<section>
-  <h2>Recent Updates</h2>
-  <ul>
-    {updates.slice(0, 5).map(u => (
-      <li>
-        <time datetime={u.data.date}>{u.data.date}</time> – {u.data.title}
-      </li>
-    ))}
-  </ul>
-  <a href="updates">View all</a>
-</section>
+<Layout>
+  <section>
+    <h1>Developer and Information Architect</h1>
+    <p>{frontmatter.excerpt}</p>
+    <a href="about">Read more</a>
+  </section>
 
-<section>
-  <h2>Recent Projects</h2>
-  <ul>
-    {projects.slice(0, 3).map(p => (
-      <li>
-        <a href={`projects/${p.slug}/`}>{p.data.title}</a>
-      </li>
-    ))}
-  </ul>
-  <a href="projects">View all</a>
-</section>
+  <section>
+    <h2>Updates</h2>
+    <ul>
+      {updates.slice(0, 5).map(u => (
+        <li>
+          <time datetime={u.data.date}>{u.data.date}</time> – {u.data.title}
+        </li>
+      ))}
+    </ul>
+    <a href="updates">View all</a>
+  </section>
+
+  <section>
+    <h2>Work Samples</h2>
+    <ul>
+      {projects.slice(0, 3).map(p => (
+        <li>
+          <a href={`projects/${p.slug}/`}>{p.data.title}</a>
+        </li>
+      ))}
+    </ul>
+    <a href="projects">View all</a>
+  </section>
+</Layout>

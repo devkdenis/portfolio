@@ -2,24 +2,31 @@
 const { title } = Astro.props;
 ---
 <html lang="en">
+  
   <head>
     <meta charset="utf-8" />
     <title>{title}</title>
   </head>
+
   <body>
+
     <header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/projects/">Projects</a>
-        <a href="/updates/">Updates</a>
+        <a href="/portfolio/">Home</a>
+        <a href="/portfolio/about/">About</a>
+        <a href="/portfolio/projects/">Projects</a>
+        <a href="/portfolio/updates/">Updates</a>
       </nav>
     </header>
+
     <main>
       <slot />
     </main>
+
     <footer>
-      © {new Date().getFullYear()}
+      FOOTER
     </footer>
+
   </body>
+
 </html>
