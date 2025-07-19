@@ -1,0 +1,4 @@
+name: CI Test
+
+on:
+  workflow_dispatch:
