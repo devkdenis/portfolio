@@ -1,0 +1,87 @@
+---
+import Layout from '../layout/Layout.astro';
+import AboutContent, { frontmatter as aboutFrontmatter } from './about.md';
+import UpdatesMd, { frontmatter as updatesFrontmatter } from '../content/updates.md';
+import { getCollection } from 'astro:content';
+
+// Define Update type
+type Update = {
+  date: string;
+  title: string;
+  description: string;
+};
+
+// Cast frontmatter.updates to a typed array
+const updates: Update[] = updatesFrontmatter.updates as Update[];
+
+// Fetch and sort projects by date_sort descending
+const projects = (
+  await getCollection('projects')
+).sort((a, b) => b.data.date_sort - a.data.date_sort);
+---
+
+<Layout>
+  <!-- About section -->
+  <section>
+    <h1>Developer</h1>
+    <h1 class="mb-4">& Information Architect</h1>
+    <ul>
+      {aboutFrontmatter.excerpt}
+    </ul>
+    <!-- Link to About page -->
+    <a href="about" class="button">
+      Read more →
+    </a>
+  </section>
+
+  <!-- Updates section -->
+  <section>
+    <h2>Updates</h2>
+    <hr />
+    <ul>
+      {updates.slice(0, 3).map((u) => (
+        <li>
+          <h4>{u.date}</h4>
+          <h3 set:html={u.title} />
+          <h5 set:html={u.description} />
+        </li>
+      ))}
+    </ul>
+    <!-- Link to Updates page -->
+    <a href="updates" class="button">
+      View all →
+    </a>
+  </section>
+
+  <!-- Projects section -->
+  <section>
+    <h2>Projects</h2>
+    <hr />
+    <ul>
+      {projects.slice(0, 4).map((p) => (
+        <li class="group">
+          <!-- Relative link to individual project -->
+          <a href={`projects/${p.slug}`} class="hoverblock">
+            <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-3">
+              <div>
+                <h4>{p.data.date}</h4>
+                <h3>{p.data.role}</h3>
+                <h5>{p.data.project}</h5>
+                <h5>@ {p.data.host}</h5>
+              </div>
+              <img
+                src={p.data.thumbnail}
+                alt={p.data.project}
+                class="w-full h-auto rounded-md object-cover"
+              />
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <!-- Link to Projects listing -->
+    <a href="projects" class="button">
+      View all →
+    </a>
+  </section>
+</Layout>

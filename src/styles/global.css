@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@layer base {
+  /*──────────────────────────────────
+    Links
+  ──────────────────────────────────*/
+  a {
+    @apply underline
+           transition-colors
+           duration-200
+           ease-in-out
+           hover:underline
+           hover:text-current/50;
+  }
+
+  /*──────────────────────────────────
+    Headings
+  ──────────────────────────────────*/
+  h1 { @apply font-bold text-5xl sm:text-6xl; }
+  h2 { @apply font-bold text-3xl sm:text-4xl; }
+  h3 { @apply text-xl leading-tight my-1; }
+  h4 { @apply font-semibold text-sm; }
+  h5 { @apply font-light text-sm text-gray-600; }
+
+  /*──────────────────────────────────
+    Horizontal rule
+  ──────────────────────────────────*/
+  hr {
+    @apply border-t
+           border-gray-300
+           mt-2
+           mb-4;
+  }
+
+  /*──────────────────────────────────
+    Global buttons
+  ──────────────────────────────────*/
+  .button {
+    @apply mt-2
+           inline-block
+           text-sm
+           px-3 py-2
+           bg-black
+           text-white
+           font-normal
+           rounded-sm
+           no-underline
+           shadow
+           hover:bg-gray-600
+           !no-underline
+           !text-white
+           focus:outline-none
+           focus:ring-2
+           focus:ring-gray-400
+           focus:ring-offset-2
+           transition
+           duration-150;
+  }
+
+  /*──────────────────────────────────
+    Button icons
+  ──────────────────────────────────*/
+  .button-icon i {
+    @apply text-lg
+           font-light
+           hover:text-gray-500
+           transition
+           duration-150;
+  }
+
+  /*──────────────────────────────────
+    Hoverblocks (project list)
+  ──────────────────────────────────*/
+  .hoverblock {
+    @apply block
+           p-0
+           transition
+           duration-150
+           group-hover:bg-gray-100
+           group-hover:ring-8
+           group-hover:ring-gray-100
+           ring-offset-0
+           rounded-sm;
+  }
+
+  /*──────────────────────────────────
+    Override link styles in header & project lists
+  ──────────────────────────────────*/
+  header a,
+  footer .button-icon,
+  a.hoverblock {
+    @apply no-underline
+           text-current
+           hover:!text-current;
+  }
+
+  /*──────────────────────────────────
+    Override spacing in project pages
+  ──────────────────────────────────*/
+  .section_project .content h2 {
+    @apply !mt-18 /* equal a */
+           !mb-4;
+  }
+
+  .section_project .content hr {
+    @apply !mt-2
+           !mb-4;
+  }
+
+  /*──────────────────────────────────
+    Global spacing across pages
+  ──────────────────────────────────*/
+  section{
+    @apply mb-18 /* equal a */
+  }
+
+  section ul{
+    @apply mb-6        /* mobile */
+          space-y-8
+          lg:mb-4      /* desktop */
+          lg:space-y-6 
+  }
+
+  section.section_updates ul {
+    @apply lg:mb-8
+           lg:!space-y-8
+
+  }
+
+  a.hoverblock {
+    @apply mb-10
+           lg:mb-0
+  }
+}

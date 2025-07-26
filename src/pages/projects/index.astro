@@ -1,0 +1,42 @@
+---
+import Layout from '../../layout/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Grab & sort projects
+const projects = (await getCollection('projects'))
+  .sort((a, b) => b.data.date_sort - a.data.date_sort);
+---
+
+<Layout>
+  <section class="section_projects">
+    <h1 class="mb-6">Projects</h1>
+
+    <ul>
+      {projects.map((p) => (
+        <li class="group">
+          <!-- Relative link to individual project -->
+          <a href={`./projects/${p.slug}`} class="hoverblock">
+            <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-3">
+              <div>
+                <h4>{p.data.date}</h4>
+                <h3>{p.data.role}</h3>
+                <h5>{p.data.project}</h5>
+                <h5>@ {p.data.host}</h5>
+              </div>
+              <img
+                src={p.data.thumbnail}
+                alt={p.data.project}
+                class="w-full h-auto rounded-md object-cover"
+              />
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <!-- “.” link resolves to base URL -->
+    <a href="." class="button">
+      ← Return Home
+    </a>
+  </section>
+</Layout>

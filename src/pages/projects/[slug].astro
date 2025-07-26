@@ -1,0 +1,77 @@
+---
+import Layout from '../../layout/Layout.astro';
+import { getCollection, getEntry } from 'astro:content';
+import UpdatesMd, { frontmatter as updatesFrontmatter } from '../../content/updates.md';
+
+// Generate static paths for all projects
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((p) => ({
+    params: { slug: p.slug },
+  }));
+}
+
+// Fetch the current project entry by slug
+const projectEntry = await getEntry('projects', Astro.params.slug);
+if (!projectEntry) {
+  throw new Error(`No project for ${Astro.params.slug}`);
+}
+
+// Render the project’s markdown content
+const { Content } = await projectEntry.render();
+
+// Define the shape of an update
+type Update = {
+  date: string;
+  title: string;
+  description: string;
+  projectid: string;
+};
+
+// Cast frontmatter.updates to the Update[] type
+const allUpdates = updatesFrontmatter.updates as Update[];
+
+// Filter updates to those matching this project and sort newest first
+const projectUpdates = allUpdates
+  .filter((u) => u.projectid === projectEntry.data.projectid)
+  .sort((a, b) => Number(b.date) - Number(a.date));
+---
+
+<Layout>
+  <!-- Project details -->
+  <section class="section_project">
+    <h1>{projectEntry.data.project}</h1>
+    <h3 class="mt-2 mb-4">@ {projectEntry.data.host}</h3>
+    <hr />
+    <h4>{projectEntry.data.date}</h4>
+    <h3>{projectEntry.data.role}</h3>
+    <ul class="content mt-5">
+      <Content />
+    </ul>
+    <!-- Return to Projects listing -->
+    <a href="./projects" class="button">
+      ← All Projects
+    </a>
+  </section>
+
+  <!-- Related updates, if any -->
+  {projectUpdates.length > 0 && (
+    <section>
+      <h2>Related Updates</h2>
+      <hr />
+      <ul>
+        {projectUpdates.map((u) => (
+          <li>
+            <h4>{u.date}</h4>
+            <h3 set:html={u.title} />
+            <h5 set:html={u.description} />
+          </li>
+        ))}
+      </ul>
+      <!-- Return to Updates listing -->
+      <a href="./updates" class="button">
+        ← All Updates
+      </a>
+    </section>
+  )}
+</Layout>

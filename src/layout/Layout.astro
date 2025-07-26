@@ -1,0 +1,117 @@
+---
+import '../styles/global.css'
+
+// Default icon for both page image and favicon
+const defaultIcon = '/favicon.png'
+
+// Props with defaults
+export interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  favicon?: string;
+}
+
+// Destructure props with defaults
+const {
+  title = 'Krystelle Denis',
+  description = 'Developer & Information Architect',
+  image = defaultIcon,
+  favicon = defaultIcon,
+} = Astro.props
+
+// Site URL from astro.config (used in Open Graph tags)
+const siteUrl = Astro.site
+
+// Current path (used to decide which nav link is active)
+const pathname = Astro.url.pathname
+
+// Base URL for resolving relative links (eg: '/')
+const base = import.meta.env.BASE_URL
+---
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={favicon} />
+    <link rel="apple-touch-icon" sizes="180x180" href={favicon} />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Open Graph metadata -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image"       content={`${siteUrl}${image}`} />
+    <meta property="og:url"         content={`${siteUrl}${pathname}`} />
+
+    <!-- Ensure all relative URLs resolve against the base -->
+    <base href={base} />
+
+    <!-- External Libraries -->
+    <script src="https://kit.fontawesome.com/1672812e7a.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body class="flex flex-col min-h-screen">
+    <div class="flex flex-col flex-grow w-full max-w-[45rem] mx-auto p-4 lg:p-6">
+
+      <!-- Header with site title and navigation -->
+      <header class="pb-16">
+        <!-- Site title links back to home -->
+        <a href={base} class="float-left">Krystelle Denis</a>
+        <!-- Navigation links -->
+        <nav class="text-right space-x-2 lg:space-x-4">
+          <!-- Underline when pathname matches base + route -->
+          <a href="about" class:list={{ underline: pathname === `${base}about` }}>About</a>
+          <a href="updates" class:list={{ underline: pathname === `${base}updates` }}>Updates</a>
+          <a href="projects" class:list={{ underline: pathname === `${base}projects` }}>Projects</a>
+        </nav>
+      </header>
+
+      <!-- Main content slot -->
+      <main class="flex-grow">
+        <slot />
+      </main>
+
+      <!-- Footer with contact info and social links -->
+      <footer class="pb-2">
+        <h2 class="font-bold">Contact</h2>
+        <hr class="border-t border-gray-300 mt-2 mb-4" />
+        <div class="mb-5">
+          If you're interested in collaborating or have questions, feel free to get in touch:
+          <a href="mailto:email@krystelledenis.com">email@krystelledenis.com</a>
+        </div>
+        <!-- Social media and email icons -->
+        <div class="space-x-2">
+          <a class="button-icon" href="mailto:email@krystelledenis.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="button-icon" href="https://www.linkedin.com/in/krystelledenis" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="button-icon" href="https://instagram.com/krystelledenis" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="button-icon" href="https://github.com/devkdenis" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <!-- Build credits -->
+        <h5 class="mt-8">
+          Built with
+          <a href="https://astro.build/" target="_blank">Astro</a>
+          &amp;
+          <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>.
+        </h5>
+      </footer>
+
+    </div>
+  </body>
+
+</html>
