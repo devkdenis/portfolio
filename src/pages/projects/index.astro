@@ -18,16 +18,19 @@ const projects = (await getCollection('projects'))
           <a href={`./projects/${p.slug}`} class="hoverblock">
             <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-3">
               <div>
+                <!-- Project details -->
                 <h4>{p.data.date}</h4>
                 <h3>{p.data.role}</h3>
                 <h5>{p.data.project}</h5>
                 <h5>@ {p.data.host}</h5>
+                <!-- Project tools -->
                 <div class="mt-1 w-100">
                   {p.data.tools.split(',').map(tool => (
                     <span class={`badge badge-${tool.toLowerCase().replace(/[^a-z0-9]/g, '')} mr-2`}>{tool}</span>
                   ))}
                 </div>
               </div>
+              <!-- Project thumbnail -->
               <img
                 src={p.data.thumbnail}
                 alt={p.data.project}
