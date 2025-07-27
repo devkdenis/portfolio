@@ -29,6 +29,9 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <a href="https://www.jeannouvel.com/en/" target="_blank">Ateliers Jean Nouvel</a>, and
 <a href="https://piaggiofastforward.com/" target="_blank">Piaggio Fast Forward</a>, among others.
 
+<!-- Headshot -->
+
+
 <!-- Return link -->
 <a href="." class="button mt-10">
   ← Return Home

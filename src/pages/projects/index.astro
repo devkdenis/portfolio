@@ -7,7 +7,7 @@ const projects = (await getCollection('projects'))
   .sort((a, b) => b.data.date_sort - a.data.date_sort);
 ---
 
-<Layout>
+<Layout title="Projects">
   <section class="section_projects">
     <h1 class="mb-6">Projects</h1>
 
@@ -22,6 +22,11 @@ const projects = (await getCollection('projects'))
                 <h3>{p.data.role}</h3>
                 <h5>{p.data.project}</h5>
                 <h5>@ {p.data.host}</h5>
+                <div class="mt-1 w-100">
+                  {p.data.tools.split(',').map(tool => (
+                    <span class={`badge badge-${tool.toLowerCase().replace(/[^a-z0-9]/g, '')} mr-2`}>{tool}</span>
+                  ))}
+                </div>
               </div>
               <img
                 src={p.data.thumbnail}

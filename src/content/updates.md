@@ -18,22 +18,28 @@ updates:
     projectid: 'digitalbenin'
 
   - date: '2021'
-    title: 'Digital Benin is featured in The Art Newspaper'
+    title: 'Digital Benin featured in The Art Newspaper'
     description: '"Where in the World Are the Benin Bronzes?" <a href="https://www.aljazeera.com/features/2021/10/12/stealing-africa-how-britain-looted-the-continents-art" target="_blank">Read article ↗</a>'
     selectprojects: ''
     projectid: 'digitalbenin'
 
   - date: '2020'
-    title: 'Digital Benin is featured in Al Jazeera'
+    title: 'Digital Benin featured in Al Jazeera'
     description: '"Digital Benin project unveils online platform" <a href="https://www.theartnewspaper.com/2020/06/08/digital-benin-a-milestone-on-the-long-slow-journey-to-restitution" target="_blank"> Read article ↗</a>'
     selectprojects: ''
     projectid: 'digitalbenin'
 
   - date: '2019'
     title:  'Joined Digital Benin as Technical and Design Lead'
-    description: 'Helped initiate the project, Co‑led Digital Benin’s design, development, and UX with researchers; built backend and frontend; integrated dynamic content via REST APIs.'
+    description: 'Co-led the design and development of Digital Benin, shaping the concept, approach, and technical layout. Co-developed the backend, front-end, data feeds, and UX.'
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/digitalbenin">View select projects</a>'
     projectid: 'digitalbenin'
+
+  - date: '2019'
+    title:  'Co-led a Data Sprint with Pitt Rivers Museum and TU Berlin'
+    description: 'During a four‑day sprint in Berlin at TU Berlin, we worked with the Pitt Rivers Museum’s collection data to create prototypes, visualizations, and interactive narratives.'
+    selectprojects: ''
+    projectid: 'digitalbenin' 
 
   - date: '2018'
     title:  'Joined OBVIL at Sorbonne University as Tech Lead and Designer'
@@ -78,13 +84,13 @@ updates:
     projectid: ''
 
   - date: '2015'
-    title: 'Graduated from Harvard University'
-    description: 'This is where I discovered my interests in Computational Design and took several courses involving full-stack web development, database management, design thinking.'
+    title: 'Graduated from Harvard University Graduate School of Design'
+    description: 'The <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a> is where I discovered my interests in Computational Design and took courses involving full-stack web development, database management, design thinking.'
     selectprojects: ''
     projectid: ''
 
   - date: '2010'
-    title: 'Graduated from the University of Florida'
+    title: 'Graduated from the University of Florida School of Architecture'
     description: 'Bachelor’s degree in Architecture'
     selectprojects: ''
     projectid: ''

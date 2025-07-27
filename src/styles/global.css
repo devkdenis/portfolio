@@ -16,7 +16,7 @@
   /*──────────────────────────────────
     Headings
   ──────────────────────────────────*/
-  h1 { @apply font-bold text-5xl sm:text-5xl; }
+  h1 { @apply font-bold text-4xl sm:text-5xl; }
   h2 { @apply font-bold text-3xl sm:text-4xl; }
   h3 { @apply text-xl leading-tight my-1; }
   h4 { @apply font-semibold text-sm; }
@@ -69,7 +69,7 @@
   }
 
   /*──────────────────────────────────
-    Hoverblocks (project list)
+    Hoverblocks (project lists)
   ──────────────────────────────────*/
   .hoverblock {
     @apply block
@@ -84,41 +84,33 @@
   }
 
   /*──────────────────────────────────
-    Override link styles in header & project lists
+    Badge base style
   ──────────────────────────────────*/
-  header a,
-  footer .button-icon,
-  a.hoverblock {
-    @apply no-underline
-           text-current
-           hover:!text-current;
+  .badge {
+    @apply px-[7px] py-[3px] rounded-[3px] text-[10px] text-white bg-[#aaaaaa];
   }
+  .badge-react       { @apply bg-[#3182CE]; }
+  .badge-d3          { @apply bg-[#46aee4]; }
+  .badge-nodejs      { @apply bg-[#6B5B95]; }
+  .badge-express     { @apply bg-[#000000]; }
+  .badge-python      { @apply bg-[#FFD43B] text-black; }
+  .badge-bootstrap   { @apply bg-[#7952B3]; }
+  .badge-maplibre    { @apply bg-[#17A2B8]; }
+  .badge-leaflet     { @apply bg-[#E94E77]; }
 
-  /*──────────────────────────────────
-    Override spacing in project pages
-  ──────────────────────────────────*/
-  .section_project .content h2 {
-    @apply !mt-18 /* equal a */
-           !mb-4;
-  }
-
-  .section_project .content hr {
-    @apply !mt-2
-           !mb-4;
-  }
 
   /*──────────────────────────────────
     Global spacing across pages
   ──────────────────────────────────*/
-  section{
-    @apply mb-18 /* equal a */
+  section, .project {
+    @apply !mb-18 /* equal a */
   }
 
-  section ul{
+  section ul {
     @apply mb-6        /* mobile */
           space-y-8
           lg:mb-4      /* desktop */
-          lg:space-y-6 
+          lg:space-y-6
   }
 
   section.section_updates ul {
@@ -131,4 +123,21 @@
     @apply mb-10
            lg:mb-0
   }
+
+  .project h3 {
+    @apply my-2
+  }
+
+  /*──────────────────────────────────
+    Override link styles in header, footer & hoverblocks
+  ──────────────────────────────────*/
+  header a,
+  footer .button-icon,
+  a.hoverblock {
+    @apply no-underline
+           text-current
+           hover:!text-current;
+  }
+
 }
+

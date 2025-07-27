@@ -5,6 +5,7 @@ const projects = defineCollection({
     project:        z.string(),
     host:           z.string(),
     role:           z.string(),
+    tools:          z.string(),
     date:           z.string(), 
     date_sort:      z.number(),
     thumbnail:      z.string(),

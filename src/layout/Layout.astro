@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+const defaultSiteName = 'Krystelle Denis';
 
 // Default icon for both page image and favicon
 const defaultIcon = '/favicon.png'
@@ -10,15 +11,23 @@ export interface Props {
   description?: string;
   image?: string;
   favicon?: string;
+  frontmatter?: { title?: string };
 }
 
 // Destructure props with defaults
 const {
-  title = 'Krystelle Denis',
+  title: incomingTitle,
   description = 'Developer & Information Architect',
-  image = defaultIcon,
-  favicon = defaultIcon,
+  image     = defaultIcon,
+  favicon   = defaultIcon,
+  frontmatter,
 } = Astro.props
+
+/* Compute final title variable */
+const pageTitle = incomingTitle ?? frontmatter?.title
+const title = pageTitle
+  ? `${defaultSiteName} | ${pageTitle}`
+  : defaultSiteName
 
 // Site URL from astro.config (used in Open Graph tags)
 const siteUrl = Astro.site
