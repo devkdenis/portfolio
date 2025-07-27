@@ -28,7 +28,7 @@ projectid: curariumsatellite
 
   ### Objects Without Edges
 
-  #### This visualization maps paintings based on the RGB values assigned to their metadata by the museum, positioning each work within a triangle defined by red, green, and blue. The process highlights the gap between physical artworks and their digital representations. Originally designed for screens, RGB reduces complex material qualities into pixel-based color data, raising questions about how computation can flatten, abstract, and redefine the experience of physical objects.
+  ##### This visualization maps paintings based on the RGB values assigned to their metadata by the museum, positioning each work within a triangle defined by red, green, and blue. The process highlights the gap between physical artworks and their digital representations. Originally designed for screens, RGB reduces complex material qualities into pixel-based color data, raising questions about how computation can flatten, abstract, and redefine the experience of physical objects.
 </div>
 
 <!-- Section: Sample project -->
@@ -46,7 +46,7 @@ projectid: curariumsatellite
 
   ### The Lives of Objects
 
-  #### Artworks are mapped using metadata fields for accession date and estimated creation dates (date begin and date end). Sorting by these fields reveals patterns in how collections were assembled in relation to the periods when works were created. Creation dates are recorded as ranges, reflecting uncertainty. Temporal gaps, concentrations, and shifts in collecting practices across the collection are highlighted.
+  ##### Artworks are mapped using metadata fields for accession date and estimated creation dates (date begin and date end). Sorting by these fields reveals patterns in how collections were assembled in relation to the periods when works were created. Creation dates are recorded as ranges, reflecting uncertainty. Temporal gaps, concentrations, and shifts in collecting practices across the collection are highlighted.
 </div>
 
 <!-- Section: Sample project -->
@@ -64,7 +64,7 @@ projectid: curariumsatellite
 
   ### Scalar Ontologies
 
-  #### Quantities of artworks are organized by their cultural origin and departmental placement, based on collection metadata. By mapping metadata related to place of origin and current departmental location, it allows for a comparative view of how artworks are distributed across categories. This approach highlights patterns in the volume and concentration of artworks within specific cultural and institutional contexts.
+  ##### Quantities of artworks are organized by their cultural origin and departmental placement, based on collection metadata. By mapping metadata related to place of origin and current departmental location, it allows for a comparative view of how artworks are distributed across categories. This approach highlights patterns in the volume and concentration of artworks within specific cultural and institutional contexts.
 </div>
 
 <!-- Section: Sample project -->
@@ -81,23 +81,16 @@ projectid: curariumsatellite
 
   ### Dark Abundance
 
-  #### This word hierarchy visualization organizes words from metadata descriptions by frequency and shows their associations across collections. Selecting a word brings related terms into focus, revealing semantic connections.
+  ##### This word hierarchy visualization organizes words from metadata descriptions by frequency and shows their associations across collections. Selecting a word brings related terms into focus, revealing semantic connections.
 </div>
 
 <!-- Section: Credits -->
-## Team and Institutions
+<div class="project-credits">
 
----
-In collaboration with:
-Matthew Battles, 
-Jeffrey Schnapp, 
-Julianne VanWagenen, 
-Pablo Barría Urenda
+  ### Team and Institutions:
+  ---
+  ##### In collaboration with: Matthew Battles, Jeffrey Schnapp, Julianne VanWagenen, Pablo Barría Urenda
+  ##### Project Host: meteLAB at Harvard
+  ##### Collaborators: Berkman Klein Center for Internet & Society, Villa I Tatti, Harvard Art Museums
 
-Project Host:
-meteLAB at Harvard
-
-Collaborators:
-Berkman Klein Center for Internet & Society
-Villa I Tatti
-Harvard Art Museums
+</div>

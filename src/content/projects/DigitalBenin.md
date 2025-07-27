@@ -28,7 +28,7 @@ projectid: digitalbenin
 
   ### Historical Landmarks of Benin Kingdom
 
-  #### Focusing on key historical sites and landmarks in Edo South, formerly the Benin Kingdom, this map highlights Benin City and surrounding towns. It traces how political and cultural structures were shaped by geography, like the city’s radial street plan and guild‑based wards. Sites span centuries, reflecting the deep, place‑based history of the Kingdom’s evolving social and urban landscape.
+  ##### Focusing on key historical sites and landmarks in Edo South, formerly the Benin Kingdom, this map highlights Benin City and surrounding towns. It traces how political and cultural structures were shaped by geography, like the city’s radial street plan and guild‑based wards. Sites span centuries, reflecting the deep, place‑based history of the Kingdom’s evolving social and urban landscape.
 </div>
 
 <!-- Section: Sample project -->
@@ -45,7 +45,7 @@ projectid: digitalbenin
 
   ### Institutions with Objects from Benin Kingdom
 
-  #### Offering a global view of Benin cultural objects, especially the Benin Bronzes, this map shows where they are held today. It contrasts their current locations with their original context in the Kingdom of Benin. By mapping global dispersion, it reflects the impact of colonial looting and the ongoing legacy of displacement, ownership, and restitution surrounding these significant cultural works.
+  ##### Offering a global view of Benin cultural objects, especially the Benin Bronzes, this map shows where they are held today. It contrasts their current locations with their original context in the Kingdom of Benin. By mapping global dispersion, it reflects the impact of colonial looting and the ongoing legacy of displacement, ownership, and restitution surrounding these significant cultural works.
 </div>
 
 <!-- Section: Sample project -->
@@ -62,7 +62,7 @@ projectid: digitalbenin
 
   ### Ẹyo Otọ: Historical objects with their correct Edo designation
 
-  #### Ẹyo Otọ restructures museum collection data by reclassifying objects using original Edo designations. It integrates visual, written, and spoken descriptions, enabling multi‑modal access. Users can view, download, and interact with illustrations as coloring books or language cards. The platform addresses data gaps and supports Edo‑led knowledge production by embedding cultural, linguistic, and historical context. *Illustrations were produced by artist and designer [Osaze Amadasun](https://www.osazeamadasun.com).* 
+  ##### Ẹyo Otọ restructures museum collection data by reclassifying objects using original Edo designations. It integrates visual, written, and spoken descriptions, enabling multi‑modal access. Users can view, download, and interact with illustrations as coloring books or language cards. The platform addresses data gaps and supports Edo‑led knowledge production by embedding cultural, linguistic, and historical context. *Illustrations were produced by artist and designer [Osaze Amadasun](https://www.osazeamadasun.com).* 
 </div>
 
 <!-- Section: Sample project -->
@@ -79,7 +79,7 @@ projectid: digitalbenin
 
   ### Provenance and Institutions
 
-  #### Linking roles, names, and acquisition histories across 138 institutions and 959 provenances, users can sort by provenance, institution, object count, or country, and view detailed collection overviews. Bar graphs visualize record counts for comparative analysis, while consistent metadata links enable cross‑institutional research into provenance, collection histories, and the global movement of Benin objects.
+  ##### Linking roles, names, and acquisition histories across 138 institutions and 959 provenances, users can sort by provenance, institution, object count, or country, and view detailed collection overviews. Bar graphs visualize record counts for comparative analysis, while consistent metadata links enable cross‑institutional research into provenance, collection histories, and the global movement of Benin objects.
 </div>
 
 <!-- Section: Sample project -->
@@ -96,29 +96,20 @@ projectid: digitalbenin
 
   ### Digital Benin Catalogue
 
-  #### The Digital Benin catalogue allows users to search, filter, and study over 5,000 objects from 138 institutions. It links object data with Edo and English designations, provenance, and categories, preserving institutional metadata structures. Filters enable dynamic research into object relationships, institutions, and provenance networks. Object cards display search results, and data includes images, 3D scans, and contextual research.
+  ##### The Digital Benin catalogue allows users to search, filter, and study over 5,000 objects from 138 institutions. It links object data with Edo and English designations, provenance, and categories, preserving institutional metadata structures. Filters enable dynamic research into object relationships, institutions, and provenance networks. Object cards display search results, and data includes images, 3D scans, and contextual research.
 </div>
 
 <!-- Section: Credits -->
-  ## Team and Institutions
-  
+<div class="project-credits">
+
+  ### Team and Institutions:
   ---
-  Design and Development: in collaboration with Alex Horak.
+  ##### Design and Development: in collaboration with Alex Horak.
+  ##### Illustrations, icons, visual language by Osaze Amadasun.<br/> 
+  ##### Project host: MARKK Museum am Rothenbaum
+  ##### Initial project funding: Ernst von Siemens Art Foundation 
+  ##### In collaboration with: Institute for Benin Studies, La Faculté des Lettres, Sorbonne Université, University of Benin, Weltmuseum Wien
+  ##### <a href="https://www.youtube.com/watch?v=MjbzEDY0ff8" target="_blank">Watch an overview</a> presented by Osaisonor Godfrey Ekhator‑Obogie, Lead Researcher.
+  ##### More team info <a href="https://digitalbenin.org/team" target="_blank">here</a>.
 
-  Illustrations, icons, visual language by Osaze Amadasun.<br/> 
-
-  Project host:
-  MARKK Museum am Rothenbaum
-
-  Initial project funding:
-  Ernst von Siemens Art Foundation 
-
-  In collaboration with:
-  Institute for Benin Studies, 
-  La Faculté des Lettres, Sorbonne Université, 
-  University of Benin, 
-  Weltmuseum Wien
-
-  <a href="https://www.youtube.com/watch?v=MjbzEDY0ff8" target="_blank">Watch an overview</a> presented by Osaisonor Godfrey Ekhator‑Obogie, Lead Researcher.
-
-  More team info <a href="https://digitalbenin.org/team" target="_blank">here</a>.
+</div>

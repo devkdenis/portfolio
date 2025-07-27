@@ -28,7 +28,7 @@ projectid: aemoiresdapollinaire
 
   ### Mémoires d’Apollinaire Archive
 
-  #### This platform encourages students to explore Apollinaire’s influence by placing his works amidst the modern artifacts which they have inspired. To this end, the project reveals a network of thousands of diverse media objects – manuscripts, texts, newspapers, audio clips, videos, and photographs. So while Apollinaire only lived to thirty-six, on Project Apollinaire the timeline of his influence extends visually into the present day.
+  ##### This platform encourages students to explore Apollinaire’s influence by placing his works amidst the modern artifacts which they have inspired. To this end, the project reveals a network of thousands of diverse media objects – manuscripts, texts, newspapers, audio clips, videos, and photographs. So while Apollinaire only lived to thirty-six, on Project Apollinaire the timeline of his influence extends visually into the present day.
 </div>
 
 <!-- Section: Sample project -->
@@ -45,33 +45,18 @@ projectid: aemoiresdapollinaire
 
   ### Spatial Reading of 'Zone' (1913 Alcools)
 
-  #### This experimental visualization maps Guillaume Apollinaire’s poem Zone (1913, Alcools) as a navigable web interface. The tool moves through the text line by line, emphasizing shifts in time and place. It explores how spatial presentation can offer new ways to experience and interpret the structure and flow of the poem.
+  ##### This experimental visualization maps Guillaume Apollinaire’s poem Zone (1913, Alcools) as a navigable web interface. The tool moves through the text line by line, emphasizing shifts in time and place. It explores how spatial presentation can offer new ways to experience and interpret the structure and flow of the poem.
 </div>
 
 <!-- Section: Credits -->
-## Team and Institutions
+<div class="project-credits">
 
----
-Research and Design:
-in collaboration with 
-Paule Desmoulière, 
-Delphine Vernozy
+  ### Team and Institutions:
+  ---
+  ##### Research and Design: in collaboration with Paule Desmoulière, Delphine Vernozy
+  ##### Project Host: Obvil, Sorbonne Université
+  ##### Laboratories and Partners: Observatoire de la vie littéraire (OBVIL), metaLAB at Harvard, Les Savanturiers- École de la recherche, Bibliothèque nationale de France (BnF), Bibliothèque Jacques Doucet (BLJD), Institut national de l'audiovisuel (Ina)
+  ##### Project Leaders: Didier Alexandre, Véronique Gély
+  ##### Interns: Elise De Vito
 
-Project Host: 
-Obvil, 
-Sorbonne Université
-
-Laboratories and Partners:
-Observatoire de la vie littéraire (OBVIL), 
-metaLAB at Harvard, 
-Les Savanturiers- École de la recherche, 
-Bibliothèque nationale de France (BnF), 
-Bibliothèque Jacques Doucet (BLJD), 
-Institut national de l'audiovisuel (Ina)
-
-Project Leaders:
-Didier Alexandre, 
-Véronique Gély
-
-Interns:
-Elise De Vito
+</div>

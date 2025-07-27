@@ -28,7 +28,7 @@ projectid: dataartifactsofthearnoldarboretum
 
   ### The Life and Death of Data
 
-  #### The Life and Death of Data is an interactive research paper that invites users to explore the Arnold Arboretum’s plant accessions through a temporal data visualization, presented alongside Yanni Loukissas’s written research. The paper activates and highlights elements within the visualization, while key moments in the visualization scroll users to the corresponding sections of the text for contextual insight. The result is a dynamic interplay between visual and textual narratives, designed to be experienced in tandem.
+  ##### The Life and Death of Data is an interactive research paper that invites users to explore the Arnold Arboretum’s plant accessions through a temporal data visualization, presented alongside Yanni Loukissas’s written research. The paper activates and highlights elements within the visualization, while key moments in the visualization scroll users to the corresponding sections of the text for contextual insight. The result is a dynamic interplay between visual and textual narratives, designed to be experienced in tandem.
 </div>
 
 <!-- Section: Sample project -->
@@ -45,28 +45,23 @@ projectid: dataartifactsofthearnoldarboretum
 
   ### Accessions (Living and Dead) to Harvard Collections of Trees, Shrubs, and Vines.
 
-  #### The <a href="http://www.arboretum.harvard.edu/plants/data-resources/" target="_blank">Arnold Arboretum accessions data</a> was geographically explored by plotting their source addresses (psources). These points, each containing one or multiple plants, do not indicate origins but instead from where accessions were retrieved. Many of these sources are plant nurseries. In the interactive version users can geographically explore the Arboretum’s plant accessions.<br/><br/>
+  ##### The <a href="http://www.arboretum.harvard.edu/plants/data-resources/" target="_blank">Arnold Arboretum accessions data</a> was geographically explored by plotting their source addresses (psources). These points, each containing one or multiple plants, do not indicate origins but instead from where accessions were retrieved. Many of these sources are plant nurseries. In the interactive version users can geographically explore the Arboretum’s plant accessions.<br/><br/>
   
-  #### Green = a plant collected from the wild
-  #### Yellow = a cutting from a plant collected from the wild
-  #### Black = a cultivated plant
-  #### Grey = a plant from an unknown origin
-  #### Shaded areas = number of plants per location
+  ##### Green = a plant collected from the wild
+  ##### Yellow = a cutting from a plant collected from the wild
+  ##### Black = a cultivated plant
+  ##### Grey = a plant from an unknown origin
+  ##### Shaded areas = number of plants per location
 </div>
 
 <!-- Section: Credits -->
-## Team and Institutions
+<div class="project-credits">
 
----
-Project Lead: 
-Yanni Loukissas
+  ### Team and Institutions:
+  ---
+  ##### Project Lead: Yanni Loukissas
+  ##### Project Host: metaLAB Harvard, Georgia Institute of Technology 
+  ##### Funder: The Lasky-Barajas Dean’s Innovation Fund for Digital Arts and Humanities
+  ##### Institutional Partners: The Arnold Arboretum
 
-Project Host:
-metaLAB Harvard,
-Georgia Institute of Technology 
-
-Funder: 
-The Lasky-Barajas Dean’s Innovation Fund for Digital Arts and Humanities
-
-Institutional Partners: 
-The Arnold Arboretum
+</div>

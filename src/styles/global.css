@@ -2,6 +2,12 @@
 
 @layer base {
   /*──────────────────────────────────
+    Body
+  ──────────────────────────────────*/
+  body {
+    @apply text-gray-900;
+  }
+  /*──────────────────────────────────
     Links
   ──────────────────────────────────*/
   a {
@@ -40,7 +46,7 @@
            inline-block
            text-sm
            px-3 py-2
-           bg-black
+           bg-gray-900
            text-white
            font-normal
            rounded-sm
@@ -84,7 +90,7 @@
   }
 
   /*──────────────────────────────────
-    Badge base style
+    Badge style
   ──────────────────────────────────*/
   .badge {
     @apply px-[7px] py-[3px] rounded-[3px] text-[10px] text-white bg-[#aaaaaa];
@@ -105,29 +111,31 @@
   section, .project {
     @apply !mb-18 /* equal a */
   }
-
   section ul {
     @apply mb-6        /* mobile */
           space-y-8
           lg:mb-4      /* desktop */
           lg:space-y-6
   }
-
   section.section_updates ul {
     @apply lg:mb-8
            lg:!space-y-8
 
   }
-
   a.hoverblock {
     @apply mb-10
            lg:mb-0
   }
-
   .project h3 {
-    @apply my-2
+    @apply mt-3
+           mb-2
   }
-
+  .project-credits {
+    @apply !bg-gray-200
+           rounded-sm
+           p-4
+           space-y-2
+  }
   /*──────────────────────────────────
     Override link styles in header, footer & hoverblocks
   ──────────────────────────────────*/

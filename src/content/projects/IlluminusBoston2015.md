@@ -29,22 +29,16 @@ projectid: illuminusboston2015
 
   ### A bit in the abyss
   
-  #### <i>A bit in the abyss</i>, presented at <a href="https://illuminus.org/illuminus-2015/abitintheabyss" target="_blank">Illuminus Boston</a>, is a digital storage server housed in a shipping container. Sonified data processing mirrors the expansion of server hosts, while reflective surfaces amplify blinking lights to create an immersive, prismatic effect. Referencing mise‑en‑abyme, the design evokes an infinite loop that suggests the existential weight and abstraction of digitized knowledge.
+  ##### <i>A bit in the abyss</i>, presented at <a href="https://illuminus.org/illuminus-2015/abitintheabyss" target="_blank">Illuminus Boston</a>, is a digital storage server housed in a shipping container. Sonified data processing mirrors the expansion of server hosts, while reflective surfaces amplify blinking lights to create an immersive, prismatic effect. Referencing mise‑en‑abyme, the design evokes an infinite loop that suggests the existential weight and abstraction of digitized knowledge.
 </div>
 
 <!-- Section: Credits -->
-## Team and Institutions
+<div class="project-credits">
 
----
-In collaboration with metaLAB at Harvard:
-Matthew Battles, 
-Marshall Lambert, 
-Cristoforo Magliozzi, 
-Sarah Newman, 
-Jessica Yurkofsky
+  ### Team and Institutions:
+  ---
+  ##### In collaboration with metaLAB at Harvard: Matthew Battles, Marshall Lambert, Cristoforo Magliozzi, Sarah Newman, Jessica Yurkofsky
+  ##### Project hosts: metaLAB Harvard, Illuminus Boston 2015
+  ##### Shipping container provided by: Eagle Leasing
 
-Project hosts:
-metaLAB Harvard, Illuminus Boston 2015
-
-Shipping container provided by: 
-Eagle Leasing
+</div>
