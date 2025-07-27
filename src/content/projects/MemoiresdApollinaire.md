@@ -51,7 +51,7 @@ projectid: aemoiresdapollinaire
 <!-- Section: Credits -->
 <div class="project-credits">
 
-  ### Team and Institutions:
+  #### Team and Institutions
   ---
   ##### Research and Design: in collaboration with Paule Desmoulière, Delphine Vernozy
   ##### Project Host: Obvil, Sorbonne Université

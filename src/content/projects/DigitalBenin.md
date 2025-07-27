@@ -102,7 +102,7 @@ projectid: digitalbenin
 <!-- Section: Credits -->
 <div class="project-credits">
 
-  ### Team and Institutions:
+  #### Team and Institutions
   ---
   ##### Design and Development: in collaboration with Alex Horak.
   ##### Illustrations, icons, visual language by Osaze Amadasun.<br/> 

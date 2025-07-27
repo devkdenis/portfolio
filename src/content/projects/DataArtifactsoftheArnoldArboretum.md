@@ -57,7 +57,7 @@ projectid: dataartifactsofthearnoldarboretum
 <!-- Section: Credits -->
 <div class="project-credits">
 
-  ### Team and Institutions:
+  #### Team and Institutions
   ---
   ##### Project Lead: Yanni Loukissas
   ##### Project Host: metaLAB Harvard, Georgia Institute of Technology 

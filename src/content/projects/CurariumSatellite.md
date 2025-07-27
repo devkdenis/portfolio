@@ -87,7 +87,7 @@ projectid: curariumsatellite
 <!-- Section: Credits -->
 <div class="project-credits">
 
-  ### Team and Institutions:
+  #### Team and Institutions
   ---
   ##### In collaboration with: Matthew Battles, Jeffrey Schnapp, Julianne VanWagenen, Pablo Barría Urenda
   ##### Project Host: meteLAB at Harvard

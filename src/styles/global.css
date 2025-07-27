@@ -93,7 +93,7 @@
     Badge style
   ──────────────────────────────────*/
   .badge {
-    @apply px-[7px] py-[3px] rounded-[3px] text-[10px] text-white bg-[#aaaaaa];
+    @apply px-[7px] py-[3px] rounded-[3px] text-[11px] text-white bg-[#aaaaaa];
   }
   .badge-react       { @apply bg-[#3182CE]; }
   .badge-d3          { @apply bg-[#46aee4]; }

@@ -35,7 +35,7 @@ projectid: illuminusboston2015
 <!-- Section: Credits -->
 <div class="project-credits">
 
-  ### Team and Institutions:
+  #### Team and Institutions
   ---
   ##### In collaboration with metaLAB at Harvard: Matthew Battles, Marshall Lambert, Cristoforo Magliozzi, Sarah Newman, Jessica Yurkofsky
   ##### Project hosts: metaLAB Harvard, Illuminus Boston 2015
