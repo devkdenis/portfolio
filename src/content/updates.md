@@ -53,17 +53,23 @@ updates:
     selectprojects: ''
     projectid: ''
 
-  - date: '05.2015'
-    title:  'Promoted to Technologist and researcher metaLAB at Harvard'
-    description: 'Built data-driven web apps for UI/UX and schema design, integrated Arnold Arboretum and Art Museum APIs, and created interactive visualizations for gallery exhibits'
-    selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/curariumsatellite">View select projects</a>'
-    projectid: ''
-
-  - date: '01.2015'
+  - date: '06.2015'
     title: 'Life and Death of Data featured in Society for Social Studies of Science'
     description: '"The Life and Death of Data" <a href="https://digitalsts.net/essays/the-life-and-death-of-data/" target="_blank"> Read article ↗</a>'
     selectprojects: ''
     projectid: 'dataartifactsofthearnoldarboretum'
+
+  - date: '05.2015'
+    title: 'Graduated from Harvard University Graduate School of Design'
+    description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
+    selectprojects: ''
+    projectid: ''
+
+  - date: '01.2015'
+    title:  'Promoted to Technologist and researcher metaLAB at Harvard'
+    description: 'Built data-driven web apps for UI/UX and schema design, integrated Arnold Arboretum and Art Museum APIs, and created interactive visualizations for gallery exhibits'
+    selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/curariumsatellite">View select projects</a>'
+    projectid: ''
 
   - date: '02.2014'
     title: 'Presented at the "Thinking with Your Eyes" two-day conference'
@@ -75,12 +81,6 @@ updates:
     title:  'Joined the metaLAB team at Harvard'
     description: 'Designed and developed The Life and Death of Data, processing Arboretum plant datasets and building interactive JavaScript visualizations.'
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/dataartifactsofthearnoldarboretum">View select projects</a>'
-    projectid: ''
-
-  - date: '05.2015'
-    title: 'Graduated from Harvard University Graduate School of Design'
-    description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
-    selectprojects: ''
     projectid: ''
 
   - date: '05.2013'
