@@ -77,15 +77,15 @@ updates:
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/dataartifactsofthearnoldarboretum">View select projects</a>'
     projectid: ''
 
-  - date: '05.2013'
-    title:  'Junior Software Developer at Orange County Water Utilities'
-    description: 'Strengthened my technical foundation by writing Oracle SQL queries, automating Excel reports, and developing a Visual Basic GUI for file management.'
-    selectprojects: ''
-    projectid: ''
-
   - date: '05.2015'
     title: 'Graduated from Harvard University Graduate School of Design'
     description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
+    selectprojects: ''
+    projectid: ''
+
+  - date: '05.2013'
+    title:  'Junior Software Developer at Orange County Water Utilities'
+    description: 'Strengthened my technical foundation by writing Oracle SQL queries, automating Excel reports, and developing a Visual Basic GUI for file management.'
     selectprojects: ''
     projectid: ''
 
