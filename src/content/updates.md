@@ -39,7 +39,7 @@ updates:
     title:  'Co-led a Data Sprint with Pitt Rivers Museum and TU Berlin'
     description: 'During a four‑day sprint in Berlin at TU Berlin, we worked with the Pitt Rivers Museum’s collection data to create prototypes, visualizations, and interactive narratives.'
     selectprojects: ''
-    projectid: 'digitalbenin' 
+    projectid: '' 
 
   - date: '09.2018'
     title:  'Joined OBVIL at Sorbonne University as Tech Lead and Designer'
@@ -48,8 +48,8 @@ updates:
     projectid: 'memoiresdapollinaire'
 
   - date: '10.2015'
-    title:  'Built Piaggio Fast Forward’s (PFF) Grand Opening Website'
-    description: 'Developed a fully responsive website for Piaggio Fast Forward (PFF) and set up AWS server infrastructure for the grand opening of the <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>'
+    title:  'Freelanced for Piaggio Fast Forward as Web Developer'
+    description: 'Built a responsive website and set up AWS servers for the launch of their <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>. Provided on‑call support for two years, handling updates, uptime monitoring, troubleshooting and feature enhancements.'
     selectprojects: ''
     projectid: ''
 

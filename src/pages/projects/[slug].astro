@@ -34,8 +34,7 @@ const allUpdates = updatesFrontmatter.updates as Update[];
 
 // Filter updates to those matching this project and sort newest first
 const projectUpdates = allUpdates
-  .filter((u) => u.projectid === projectEntry.data.projectid)
-  .sort((a, b) => Number(b.date) - Number(a.date));
+  .filter((u) => u.projectid === projectEntry.data.projectid);
 ---
 
 <Layout title={`Projects | ${projectEntry.data.project}`}>
