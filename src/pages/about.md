@@ -11,7 +11,7 @@ excerpt: >
 
 <!-- Role and experience -->
 <h3>Developer and Information Architect</h3>
-<h4>10+ Years</h4><br>
+<h4>12+ Years</h4><br>
 
 <!-- Overview -->
 I work with research teams, arboretums, and cultural institutions to turn data into thoughtful, accessible experiences. This includes developing interfaces, visualizations, maps, and catalogues for exploring and understanding research, collections, and stories. I also contribute to projects through metadata structuring, technical support, and workflow design.<br><br>
@@ -28,9 +28,18 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <a href="https://www.mit.edu/" target="_blank">MIT</a>,
 <a href="https://www.jeannouvel.com/en/" target="_blank">Ateliers Jean Nouvel</a>, and
 <a href="https://piaggiofastforward.com/" target="_blank">Piaggio Fast Forward</a>, among others.
+<br><br><br>
 
-<!-- Headshot -->
+<!-- Education -->
+<h4>
+Harvard University<br>
+<a href="https://www.gsd.harvard.edu" target="_blank">Graduate School of Design</a><br>
+MArch I AP, 2015<br><br>
 
+University of Florida<br>
+School of Architecture<br>
+B.Design in Architecture, 2010
+</h4>
 
 <!-- Return link -->
 <a href="." class="button mt-10">

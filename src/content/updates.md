@@ -49,19 +49,19 @@ updates:
 
   - date: '10.2015'
     title:  'Freelanced for Piaggio Fast Forward as Web Developer'
-    description: 'Built a responsive website and set up AWS servers for the launch of their <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>. Provided on‑call support for two years, handling updates, uptime monitoring, troubleshooting and feature enhancements.'
+    description: 'Built a responsive website and set up AWS servers for the launch of their <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>. Provided on‑call support, handling updates, uptime monitoring, troubleshooting and feature enhancements.'
     selectprojects: ''
     projectid: ''
 
   - date: '06.2015'
     title: 'Life and Death of Data featured in Society for Social Studies of Science'
-    description: '"The Life and Death of Data" <a href="https://digitalsts.net/essays/the-life-and-death-of-data/" target="_blank"> Read article ↗</a>'
+    description: 'An interactive documentary I worked on at metaLAB was published: "The Life and Death of Data" <a href="https://digitalsts.net/essays/the-life-and-death-of-data/" target="_blank"> Read article ↗</a>'
     selectprojects: ''
     projectid: 'dataartifactsofthearnoldarboretum'
 
   - date: '05.2015'
     title: 'Graduated from Harvard University Graduate School of Design'
-    description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
+    description: 'Master of Architecture I Advanced Placement (MArch I AP)'
     selectprojects: ''
     projectid: ''
 
@@ -89,9 +89,15 @@ updates:
     selectprojects: ''
     projectid: ''
 
+  - date: '08.2011'
+    title: 'Began graduate studies at the Harvard University Graduate School of Design'
+    description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
+    selectprojects: ''
+
+    projectid: ''
   - date: '05.2010'
     title: 'Graduated from the University of Florida School of Architecture'
-    description: 'Bachelor’s degree in Architecture.'
+    description: 'Earned a Bachelor of Design in Architecture.'
     selectprojects: ''
     projectid: ''
 ---
