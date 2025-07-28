@@ -24,7 +24,7 @@ const projects = (await getCollection('projects'))
                 <h5>{p.data.project}</h5>
                 <h5>@ {p.data.host}</h5>
                 <!-- Project tools -->
-                <div class="mt-1 w-100">
+                <div class="mt-1">
                   {p.data.tools.split(',').map(tool => (
                     <span class={`badge badge-${tool.toLowerCase().replace(/[^a-z0-9]/g, '')} mr-2`}>{tool}</span>
                   ))}
