@@ -43,13 +43,13 @@ updates:
 
   - date: '09.2018'
     title:  'Joined OBVIL at Sorbonne University as Tech Lead and Designer'
-    description: 'Created an interactive web installation for Apollinaire’s media objects and a centralized JSON metadata repository in collaboration with Parisian archivists.'
+    description: 'Created an interactive web installation for Apollinaire’s media objects and a centralized JSON metadata repository in collaboration with archivists across Paris.'
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/memoiresdapollinaire">View select projects</a>'
     projectid: 'memoiresdapollinaire'
 
   - date: '10.2015'
     title:  'Freelanced for Piaggio Fast Forward as Web Developer'
-    description: 'Built a responsive website and set up AWS servers for the launch of their <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>. Provided on‑call support, handling updates, uptime monitoring, troubleshooting and feature enhancements.'
+    description: 'Built a responsive website and set up AWS servers for the launch of PFF’s <a href="https://piaggiofastforward.com/" target="_blank">Gita Robot ↗</a>. Provided on‑call support, handling updates, uptime monitoring, troubleshooting and feature enhancements.'
     selectprojects: ''
     projectid: ''
 
