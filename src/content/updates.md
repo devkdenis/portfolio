@@ -66,7 +66,7 @@ updates:
     projectid: ''
 
   - date: '01.2015'
-    title:  'Promoted to Technologist and researcher metaLAB at Harvard'
+    title:  'Promoted to Technologist and researcher at metaLAB at Harvard'
     description: 'Built data-driven web apps for UI/UX and schema design, integrated Arnold Arboretum and Art Museum APIs, and created interactive visualizations for gallery exhibits'
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/curariumsatellite">View select projects</a>'
     projectid: ''
@@ -78,7 +78,7 @@ updates:
     projectid: 'dataartifactsofthearnoldarboretum'
 
   - date: '01.2014'
-    title:  'Joined the metaLAB team at Harvard'
+    title:  'Joined metaLAB team at Harvard'
     description: 'Designed and developed The Life and Death of Data, processing Arboretum plant datasets and building interactive JavaScript visualizations.'
     selectprojects: '<i class="fa-solid fa-paperclip"></i> <a href="projects/dataartifactsofthearnoldarboretum">View select projects</a>'
     projectid: ''
