@@ -83,8 +83,7 @@
            transition
            duration-150
            group-hover:bg-gray-500/10
-           group-hover:ring-8
-           group-hover:ring-gray-500/10
+           group-hover:ring-8 ring-gray-500/10
            ring-offset-0
            rounded-sm;
   }
