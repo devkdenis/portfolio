@@ -5,7 +5,7 @@
     Body
   ──────────────────────────────────*/
   body {
-    @apply text-gray-900;
+    @apply text-[#111828];
   }
   /*──────────────────────────────────
     Links
@@ -46,7 +46,7 @@
            inline-block
            text-sm
            px-3 py-2
-           bg-gray-900
+           bg-black/90
            text-white
            font-normal
            rounded-sm
@@ -82,9 +82,9 @@
            p-0
            transition
            duration-150
-           group-hover:bg-gray-100
+           group-hover:bg-gray-500/10
            group-hover:ring-8
-           group-hover:ring-gray-100
+           group-hover:ring-gray-500/10
            ring-offset-0
            rounded-sm;
   }
@@ -131,7 +131,7 @@
            mb-2
   }
   .project-credits {
-    @apply !bg-gray-200
+    @apply bg-gray-500/10
            rounded-sm
            p-4
            space-y-2
