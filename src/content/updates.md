@@ -90,7 +90,7 @@ updates:
     projectid: ''
 
   - date: '08.2011'
-    title: 'Began graduate studies at the Harvard University Graduate School of Design'
+    title: 'Began graduate studies at Harvard University Graduate School of Design'
     description: 'At the <a href="https://www.gsd.harvard.edu/" target="_blank">GSD</a>, I discovered my interest in computational design and took courses in full‑stack web development, database management, and design thinking.'
     selectprojects: ''
 
