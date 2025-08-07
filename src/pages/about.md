@@ -25,8 +25,8 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <a href="https://www.sorbonne-universite.fr/en" target="_blank">OBVIL at Paris Sorbonne</a>,
 <a href="https://harvardartmuseums.org/" target="_blank">Harvard Art Museums</a>,
 <a href="https://cyber.harvard.edu/" target="_blank">The Berkman Klein Center</a>,
-<a href="https://www.mit.edu/" target="_blank">MIT</a>,
-<a href="https://www.jeannouvel.com/en/" target="_blank">Ateliers Jean Nouvel</a>, and
+<a href="https://www.jeannouvel.com/en/" target="_blank">Ateliers Jean Nouvel</a>,
+<a href="https://markk-hamburg.de/en/" target="_blank">Museum am Rothenbaum (MARKK)</a>,
 <a href="https://piaggiofastforward.com/" target="_blank">Piaggio Fast Forward</a>, among others.
 <br><br><br>
 
@@ -34,7 +34,7 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <h4>
 Harvard University<br>
 <a href="https://www.gsd.harvard.edu" target="_blank">Graduate School of Design</a><br>
-MArch I AP, 2015<br><br>
+M.Arch I AP, 2015<br><br>
 
 University of Florida<br>
 School of Architecture<br>

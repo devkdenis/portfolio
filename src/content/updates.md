@@ -19,13 +19,13 @@ updates:
 
   - date: '10.2021'
     title: 'Digital Benin featured in The Art Newspaper'
-    description: '"Where in the World Are the Benin Bronzes?" <a href="https://www.aljazeera.com/features/2021/10/12/stealing-africa-how-britain-looted-the-continents-art" target="_blank">Read article ↗</a>'
+    description: '"Where in the World Are the Benin Bronzes?" <a href="https://www.theartnewspaper.com/2020/06/08/digital-benin-a-milestone-on-the-long-slow-journey-to-restitution" target="_blank">Read article ↗</a>'
     selectprojects: ''
     projectid: 'digitalbenin'
 
   - date: '06.2020'
     title: 'Digital Benin featured on Al Jazeera'
-    description: '"Digital Benin project unveils online platform" <a href="https://www.theartnewspaper.com/2020/06/08/digital-benin-a-milestone-on-the-long-slow-journey-to-restitution" target="_blank"> Read article ↗</a>'
+    description: '"Digital Benin project unveils online platform" <a href="https://www.aljazeera.com/features/2021/10/12/stealing-africa-how-britain-looted-the-continents-art" target="_blank"> Read article ↗</a>'
     selectprojects: ''
     projectid: 'digitalbenin'
 

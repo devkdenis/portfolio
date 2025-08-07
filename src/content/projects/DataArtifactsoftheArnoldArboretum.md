@@ -32,9 +32,9 @@ projectid: dataartifactsofthearnoldarboretum
 
   <br/><br/>
 
-  ![](/media/ldd_set1b.jpg)
+  <a href="/media/ldd_set1b.jpg" target="_blank">![](/media/ldd_set1b.jpg)</a>
   <br/><br/>
-  ![](/media/ldd_set2b.jpg)
+  <a href="/media/ldd_set2b.jpg" target="_blank">![](/media/ldd_set2b.jpg)</a>
 
 </div>
 
