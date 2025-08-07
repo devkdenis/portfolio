@@ -6,7 +6,7 @@ tools: NodeJS,React,D3,Leaflet
 date: '2016 – 2018'
 date_sort: 2018
 thumbnail: thumbnails/MemoiresdApollinaire.gif
-projectid: aemoiresdapollinaire
+projectid: memoiresdapollinaire
 ---
 
 <!-- Project overview -->

@@ -29,6 +29,13 @@ projectid: dataartifactsofthearnoldarboretum
   ### The Life and Death of Data
 
   ##### The Life and Death of Data is an interactive research paper that invites users to explore the Arnold Arboretum’s plant accessions through a temporal data visualization, presented alongside Yanni Loukissas’s written research. The paper activates and highlights elements within the visualization, while key moments in the visualization scroll users to the corresponding sections of the text for contextual insight. The result is a dynamic interplay between visual and textual narratives, designed to be experienced in tandem.
+
+  <br/><br/>
+
+  ![](/media/ldd_set1b.jpg)
+  <br/><br/>
+  ![](/media/ldd_set2b.jpg)
+
 </div>
 
 <!-- Section: Sample project -->
