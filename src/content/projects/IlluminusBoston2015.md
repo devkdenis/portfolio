@@ -2,7 +2,7 @@
 project: Illuminus Boston 2015
 host: metaLAB at Harvard
 role: Technologist and Designer
-tools: Rhino 3D,Audacity
+tools: Rhino3D,Audacity
 date: '2014 – 2015'
 date_sort: 2014
 thumbnail: thumbnails/IlluminusBoston2015.jpg
