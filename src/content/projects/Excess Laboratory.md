@@ -2,7 +2,7 @@
 project: Excess Laboratory
 host: Harvard GSD
 role: Thesis Project 2015
-tools: Adobe CC, Rhino 3D, Grasshopper
+tools: Rhino 3D, Grasshopper, Illustrator, Photoshop
 date: '2014 - 2015'
 date_sort: 2013
 thumbnail: thumbnails/ExcessLaboratory.gif
