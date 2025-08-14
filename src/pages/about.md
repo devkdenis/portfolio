@@ -11,7 +11,7 @@ excerpt: >
 
 <!-- Role and experience -->
 <h3>Developer and Information Architect</h3>
-<h4>12+ Years</h4><br>
+<h4>10+ Years</h4><br>
 
 <!-- Overview -->
 I work with research teams, arboretums, and cultural institutions to turn data into thoughtful, accessible experiences. This includes developing interfaces, visualizations, maps, and catalogues for exploring and understanding research, collections, and stories. I also contribute to projects through metadata structuring, technical support, and workflow design.<br><br>
