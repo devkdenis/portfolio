@@ -16,7 +16,7 @@ excerpt: >
 <!-- Overview -->
 I design and build interactive visualizations, maps, and interfaces for exploring and understanding collections and stories. I collaborate with research teams and cultural institutions, developing metadata schemas and workflows that support data-driven narratives.<br><br>
 
-<!-- Design practice focus -->
+<!-- More info -->
 
 
 <!-- Featured engagements -->
@@ -28,10 +28,9 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <a href="https://www.jeannouvel.com/en/" target="_blank">Ateliers Jean Nouvel</a>,
 <a href="https://markk-hamburg.de/en/" target="_blank">Museum am Rothenbaum (MARKK)</a>,
 <a href="https://piaggiofastforward.com/" target="_blank">Piaggio Fast Forward</a>, among others.
-<br><br><br>
+<br><br>
 
 <!-- Education -->
-<h4>
 Harvard University<br>
 <a href="https://www.gsd.harvard.edu" target="_blank">Graduate School of Design</a><br>
 M.Arch I AP, 2015<br><br>
@@ -39,7 +38,6 @@ M.Arch I AP, 2015<br><br>
 University of Florida<br>
 School of Architecture<br>
 B.Design in Architecture, 2010
-</h4>
 
 <!-- Return link -->
 <a href="." class="button mt-10">
