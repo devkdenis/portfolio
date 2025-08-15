@@ -2,7 +2,7 @@
 layout: ../layout/Layout.astro
 title: About
 excerpt: >
-  I work with research teams, arboretums, and cultural institutions to turn data into thoughtful, accessible experiences. This includes developing interfaces, visualizations, maps, and catalogues for exploring and understanding research, collections, and stories. I also contribute to projects through metadata structuring, technical support, and workflow design.
+  I design and build interactive visualizations, maps, and interfaces for exploring and understanding collections and stories. I collaborate with research teams and cultural institutions, developing metadata schemas and workflows that support data-driven narratives.
 ---
 <section class="section_about">
 
@@ -14,7 +14,7 @@ excerpt: >
 <h4>10+ Years</h4><br>
 
 <!-- Overview -->
-I work with research teams, arboretums, and cultural institutions to turn data into thoughtful, accessible experiences. This includes developing interfaces, visualizations, maps, and catalogues for exploring and understanding research, collections, and stories. I also contribute to projects through metadata structuring, technical support, and workflow design.<br><br>
+I design and build interactive visualizations, maps, and interfaces for exploring and understanding collections and stories. I collaborate with research teams and cultural institutions, developing metadata schemas and workflows that support data-driven narratives.<br><br>
 
 <!-- Design practice focus -->
 My design practice focuses on interaction, information architecture, and content structure, with an emphasis on clarity, usability, and alignment with research goals. I’ve led projects across design and development, from concept through to launch. My approach begins with careful listening through questions and conversations, taking time to understand the goals, context, and nuances of a project. I develop structures, systems, and workflows in dialogue with the team, ensuring that the design supports both the material and the people engaging with it. I aim to develop solutions that are useful, appropriate to the context, and responsive to how people actually navigate and use information.<br><br>
