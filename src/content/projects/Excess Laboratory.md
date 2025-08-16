@@ -5,7 +5,7 @@ role: Thesis Project 2015
 tools: Rhino3D,Grasshopper,Illustrator,Photoshop
 date: '2014 - 2015'
 date_sort: 2013
-thumbnail: thumbnails/ExcessLaboratory.gif
+thumbnail: thumbnails/ExcessLaboratory.jpg
 projectid: excesslaboratory
 ---
 
@@ -15,7 +15,7 @@ projectid: excesslaboratory
 </div>
 
 <!-- Section: Sample project -->
-<a href="/thumbnails/ExcessLaboratory.gif" target="_blank">![](/thumbnails/ExcessLaboratory.gif)</a>
+<a href="/thumbnails/ExcessLaboratory.gif" target="_blank">![](/media/ExcessLaboratory.gif)</a>
 <a href="/media/16.jpg" target="_blank">![](/media/16.jpg)</a>
 
   ##### The relationship between the three words (waste, storage, and memory) were initially explored during my last option studio (Networked Urbanism: Urban Waste), an experimental online platform that aims to allow material at the Harvard Recycling and Surplus Center to become accessible to more people while forming a collective memory to reveal the potential value of items. This thesis was an attempt to continue exploring these three critical terms in the context of a world where the rapid evolution of technology, consumption and waste continue to be underestimated urban conditions.
