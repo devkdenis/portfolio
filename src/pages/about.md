@@ -31,13 +31,11 @@ Projects I’ve worked on have been featured in publications such as The Financi
 <br><br>
 
 <!-- Education -->
-Harvard University<br>
-<a href="https://www.gsd.harvard.edu" target="_blank">Graduate School of Design</a><br>
+Harvard University, <a href="https://www.gsd.harvard.edu" target="_blank">GSD</a><br>
 M.Arch I AP, 2015<br><br>
 
-University of Florida<br>
-School of Architecture<br>
-B.Design in Architecture, 2010
+University of Florida, <a href="https://dcp.ufl.edu/architecture/" target="_blank">SoF</a><br>
+B.Des in Architecture, 2010
 
 <!-- Return link -->
 <a href="." class="button mt-10">

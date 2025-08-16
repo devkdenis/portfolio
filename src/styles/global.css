@@ -22,8 +22,8 @@
   /*──────────────────────────────────
     Headings
   ──────────────────────────────────*/
-  h1 { @apply font-bold text-4xl sm:text-4xl; }
-  h2 { @apply font-bold text-3xl sm:text-3xl; }
+  h1 { @apply font-bold text-3xl sm:text-4xl; }
+  h2 { @apply font-bold text-3xl sm:text-[1.65rem]; }
   h3 { @apply text-xl leading-tight my-1; }
   h4 { @apply font-semibold text-sm; }
   h5 { @apply font-light text-sm text-gray-600; }
@@ -44,9 +44,9 @@
   .button {
     @apply mt-2
            inline-block
-           text-sm
-           px-3 py-2
-           bg-black/90
+           text-[0.85rem]
+           px-[0.7rem] py-[0.4rem]
+           bg-black
            text-white
            font-normal
            rounded-sm
@@ -108,7 +108,7 @@
     Global spacing across pages
   ──────────────────────────────────*/
   section, .project {
-    @apply !mb-18 /* equal a */
+    @apply !mb-22
   }
   section ul {
     @apply mb-6        /* mobile */
